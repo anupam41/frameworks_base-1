@@ -5057,7 +5057,19 @@ public final class Settings {
          */
         public static final String RINGTONE_VIBRATION_PATTERN = "ringtone_vibration_pattern";
 
-        /**
+       /**
+         * toggle clock location
+         * @hide
+         */
+        public static final String QS_CLOCK_LOCATION = "qs_clock_location";
+
+       /**
+         * toggle clock gravity
+         * @hide
+         */
+        public static final String QS_CLOCK_GRAVITY = "clock_gravity";
+
+	/**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
